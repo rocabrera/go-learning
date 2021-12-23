@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  go:
+    build: 
+      context: ./
+      dockerfile: basics_go.Dockerfile
+    volumes:
+      - ./basics:/go/src/
+
+    tty: true
+
+volumes:
+  basics:
