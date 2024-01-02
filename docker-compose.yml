@@ -4,9 +4,9 @@ services:
   go:
     build: 
       context: ./
-      dockerfile: basics.Dockerfile
+      dockerfile: Dockerfile
     volumes:
-      - ./basics:/go/src/
+      - .:/container-go/
 
     tty: true
 

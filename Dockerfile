@@ -2,4 +2,4 @@ FROM golang:1.21
 
 WORKDIR /go/src/
 
-COPY ./basics .
+COPY . .
