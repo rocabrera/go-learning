@@ -4,7 +4,7 @@ services:
   go:
     build: 
       context: ./
-      dockerfile: basics_go.Dockerfile
+      dockerfile: basics.Dockerfile
     volumes:
       - ./basics:/go/src/
 
